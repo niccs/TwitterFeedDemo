@@ -7,6 +7,8 @@ https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=<SCREEN_NAME
 
 <p align="center">
   <img src="https://cloud.githubusercontent.com/assets/5301598/14309021/1cf86714-fc1d-11e5-9087-d6f246beff74.png" width="300"/>
+  
+  
   <img src="https://cloud.githubusercontent.com/assets/5301598/14309029/2bb02314-fc1d-11e5-91d1-1b536e8cf739.png" width="300"/>
 </p>
 
@@ -29,6 +31,8 @@ It goes through the following steps:
 
 •	Target SDK is 23 and build tools versions is “23.0.2”
 
+•	Supports Android 4.3 upwards
+
 •	Google gson lib (2.6.2) is used to convert the JSON tweet responses to listview.
 
 •	URLConnection is used for GET and POST requests via REST API
@@ -40,6 +44,8 @@ It goes through the following steps:
 
 •	REST API error handling to be done via JSON error response
 
-•	Unit Test cases
+•	Unit Test cases to be done
+
+•	Resources to be modified for modulatization
 
 
