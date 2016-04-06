@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+
+    android:weightSum="1">
+
+
+    <ImageView android:id="@+id/profile_image"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:paddingLeft="5dip"
+        android:paddingTop="5dip"
+        android:paddingRight="3dip" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/profile_image"
+        android:id="@+id/llTweetAttr">
+
+        <TextView
+            android:id="@+id/textUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:paddingTop="2dip"
+            android:paddingBottom="2dip"
+            android:paddingLeft="5dip"
+            android:paddingRight="2dip" />
+
+        <TextView android:id="@+id/tweetAttributes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:textColor="@android:color/black"
+            android:paddingTop="2dip"
+            android:paddingBottom="2dip"
+            android:paddingLeft="2dip"
+            android:paddingRight="4dip"
+             />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tweetText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llTweetAttr"
+        android:paddingLeft="8dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_toRightOf="@id/profile_image"
+        android:gravity="center_vertical"
+        android:textSize="16sp" />
+
+</RelativeLayout >
