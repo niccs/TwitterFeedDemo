@@ -3,6 +3,14 @@ Fetch the twitter feeds of a user using Application Only Authentication(OAuth2) 
 Using the 
 https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=<SCREEN_NAME> endpoint to get a list of tweets for a user.
 
+## Screen Flow:-
+
+<p align="center">
+  <img src="https://cloud.githubusercontent.com/assets/5301598/14309021/1cf86714-fc1d-11e5-9087-d6f246beff74.png" width="300"/>
+  <img src="https://cloud.githubusercontent.com/assets/5301598/14309029/2bb02314-fc1d-11e5-91d1-1b536e8cf739.png" width="300"/>
+</p>
+
+
 ## Process Flow:--
 
 
